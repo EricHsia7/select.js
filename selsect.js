@@ -20,13 +20,13 @@ openselect($( this ).parent().attr('id'));
 function openselect(sid) {
 if($('#' + sid).height() > 51) {
 $('#' + sid).css({'height': 50 ,'transition':'0.5s', 'overflow': 'hidden'});
-$('#' + sid + ' li').fadeOut(1);
+//$('#' + sid + ' li').fadeOut(1);
 $('#' + sid + ' img').css({'transform':'rotate(0deg)','transition':'0.5s'});
 $('#' + sid + ' .span').css({'overflow': 'hidden'});
 }
 else {
 $('#' + sid).css({'height': getlistheight('#' + sid)+50 ,'transition':'0.5s'});
-$('#' + sid + ' li').fadeIn(1);
+//$('#' + sid + ' li').fadeIn(1);
 $('#' + sid + ' img').css({'transform':'rotate(180deg)','transition':'0.5s'});
 $('#' + sid + ' .span').css({'overflow': 'hidden'});
 }
