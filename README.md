@@ -1,5 +1,24 @@
 # select.js
-## 
+## install
+JQuery
+```
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+```
+select.js
+```
+<script src="https://erichsia7.github.io/select.js/selsect.js"></script>
+```
+html
+```
+<div class="select" id="select">
+<li value="1">珍珠大正紅茶拿鐵</li>
+<li value="2">大正紅茶拿鐵</li>
+<li value="3">伯爵紅茶拿鐵</li>
+<li value="4">茉香綠茶拿鐵</li>
+<li value="5">高峰烏龍拿鐵</li>
+</div>
+```
+## example
 ```
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <center>
@@ -29,3 +48,5 @@
 </center>
 <script src="https://erichsia7.github.io/select.js/selsect.js"></script>
 ```
+## remarks
+select.js must be after html.
