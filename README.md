@@ -40,7 +40,7 @@ document.getElementById(id).getAttribute('value')
 <li value="1">全糖</li>
 <li value="0.8">少糖</li>
 <li value="0.5">半糖</li>
-<li value="0.3">維糖</li>
+<li value="0.3">微糖</li>
 <li value="0">無糖</li>
 </div>
 
