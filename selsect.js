@@ -1,3 +1,4 @@
+/*! select v1.0.0 | (c) github @EricHsia7 */
 function selectstart() {
 $('body').prepend('<style>* {outline:none; -webkit-tap-highlight-color:rgba(0,0,0,0);}.select{width:180px;height:50px;border-radius:12px;background:#fff;overflow:hidden; border:1px #e3e3e3 solid;margin:10px}.select .title{width:180px;height:50px;background:#ff;border-bottom:1px #c4c4c4 solid;font-size:20px;position:relative}.select .title img{height:15px;position:absolute;top:17px;right:17px}.select .title .span{position:absolute;top:50%;left:17px;transform:translateY(-50%) translateZ(0);width:113px;overflow:hidden;height:30px;}.select li{display: flex;justify-content: center;align-items: center;list-style:none;background:#fff;height:49px;border-bottom:1px #dedede solid}</style>');
 for (var i=0; i<$('.select').length; i++){
