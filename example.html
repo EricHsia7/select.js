@@ -25,12 +25,13 @@
 <li value="0.3">薄冰</li>
 <li value="0">去冰</li>
 </div>
-</center>
-<span id="val"></span>
-<a href="javascript:getvalue()">GetValue</a>
-<script src="https://erichsia7.github.io/select.js/selsect.js?2"></script>
+  
+  <span id="val"></span>
+<a href="javascript:getvalue()" style="padding:10px;background:#333;color:#fff;text-decoration:none;border-radius:12px;fong-size:20px;">GetValue</a>
 <script>
 function getvalue() {
 document.getElementById('val').innerHTML = document.getElementById('select').getAttribute('value') + ' ' + document.getElementById('select2').getAttribute('value') + ' ' + document.getElementById('select3').getAttribute('value') ;
 }
 </script>
+</center>
+<script src="https://erichsia7.github.io/select.js/selsect.js?2"></script>
