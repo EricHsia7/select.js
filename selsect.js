@@ -10,7 +10,7 @@ $('.title').click(function(){
 
 $('.select li').click(function(){
 $( this ).parent().children('.title').children('.span').html($( this ).html());
-$( this ).parent().children('.title').attr('value', $( this ).attr('value'));
+$( this ).parent().attr('value', $( this ).attr('value'));
 
 openselect($( this ).parent().attr('id'));
 });
