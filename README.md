@@ -18,6 +18,10 @@ html
 <li value="5">高峰烏龍拿鐵</li>
 </div>
 ```
+## getvalue
+```
+document.getElementById(id).getAttribute('value')
+```
 ## example
 [demo](https://erichsia7.github.io/select.js/example.html)
 ```
