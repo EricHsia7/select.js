@@ -23,7 +23,7 @@ html
 document.getElementById(id).getAttribute('value')
 ```
 ## example
-[demo](https://erichsia7.github.io/select.js/example.html)
+[demo](https://erichsia7.github.io/select.js/demo.html)
 ```
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <center>
