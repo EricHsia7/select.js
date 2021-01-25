@@ -26,4 +26,11 @@
 <li value="0">去冰</li>
 </div>
 </center>
+<span id="val"></span>
+<a href="javascript:getvalue()">GetValue</a>
 <script src="https://erichsia7.github.io/select.js/selsect.js?2"></script>
+<script>
+function getvalue() {
+document.getElementById('val').innerHTML = document.getElementById('select').value + ' ' + document.getElementById('select2').value + ' ' + document.getElementById('select3').value ;
+}
+</script>
