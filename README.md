@@ -22,7 +22,7 @@ html
 ```
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <center>
-<h1>select.js 範例</h1>
+<h1>select.js example</h1>
 <div class="select" id="select">
 <li value="1">珍珠大正紅茶拿鐵</li>
 <li value="2">大正紅茶拿鐵</li>
