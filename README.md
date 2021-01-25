@@ -19,6 +19,7 @@ html
 </div>
 ```
 ## example
+(demo)[https://erichsia7.github.io/example.html]
 ```
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <center>
