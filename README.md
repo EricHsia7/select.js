@@ -8,6 +8,7 @@ select.js
 ```
 <script src="https://erichsia7.github.io/select.js/selsect.js"></script>
 ```
+## use
 html
 ```
 <div class="select" id="select">
