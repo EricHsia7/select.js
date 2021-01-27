@@ -56,3 +56,5 @@ document.getElementById(id).getAttribute('value')
 ```
 ## remarks
 select.js must be after html.
+## download
+[select.js](https://github.com/EricHsia7/select.js/raw/main/selsect.js)
