@@ -2,7 +2,7 @@
 ## install
 JQuery
 ```
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 ```
 select.js
 ```
@@ -26,7 +26,7 @@ document.getElementById(id).getAttribute('value')
 ## example
 [demo](https://erichsia7.github.io/select.js/demo.html)
 ```
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <center>
 <h1>select.js example</h1>
 <div class="select" id="select">
